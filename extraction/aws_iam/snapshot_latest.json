@@ -1,0 +1,64 @@
+[
+  {
+    "username": "iam-audit-readonly",
+    "user_id": "AIDAX3DSA2KNOOZI7M4WR",
+    "created": "2026-08-03T23:18:23+00:00",
+    "days_since_created": 0,
+    "groups": [
+      "IAM-Auditors-ReadOnly"
+    ],
+    "direct_policies": [],
+    "effective_policies": [
+      "IAMReadOnlyAccess"
+    ],
+    "password_last_used": null,
+    "days_inactive": null
+  },
+  {
+    "username": "jgarcia-finance",
+    "user_id": "AIDAX3DSA2KNETUUYZKJQ",
+    "created": "2026-08-04T02:23:28+00:00",
+    "days_since_created": 0,
+    "groups": [
+      "Finance-Team"
+    ],
+    "direct_policies": [],
+    "effective_policies": [
+      "ReadOnlyAccess"
+    ],
+    "password_last_used": null,
+    "days_inactive": null
+  },
+  {
+    "username": "mlopez-admin-orphan",
+    "user_id": "AIDAX3DSA2KNHT6YWILND",
+    "created": "2026-08-04T02:24:33+00:00",
+    "days_since_created": 0,
+    "groups": [
+      "Legacy-Admins"
+    ],
+    "direct_policies": [],
+    "effective_policies": [
+      "AdministratorAccess"
+    ],
+    "password_last_used": null,
+    "days_inactive": null
+  },
+  {
+    "username": "rperez",
+    "user_id": "AIDAX3DSA2KNJ6ZF36GVJ",
+    "created": "2026-08-04T02:28:33+00:00",
+    "days_since_created": 0,
+    "groups": [
+      "Approvers",
+      "Creators"
+    ],
+    "direct_policies": [],
+    "effective_policies": [
+      "PowerUserAccess",
+      "IAMFullAccess"
+    ],
+    "password_last_used": null,
+    "days_inactive": null
+  }
+]

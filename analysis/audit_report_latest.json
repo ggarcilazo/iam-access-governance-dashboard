@@ -1,0 +1,16 @@
+[
+  {
+    "username": "mlopez-admin-orphan",
+    "findings": [
+      "🔴 Privilegio elevado: tiene 'AdministratorAccess'"
+    ]
+  },
+  {
+    "username": "rperez",
+    "findings": [
+      "⚠️  SoD: pertenece a 'Approvers' Y 'Creators' simultáneamente",
+      "🔴 Privilegio elevado: tiene 'PowerUserAccess'",
+      "🔴 Privilegio elevado: tiene 'IAMFullAccess'"
+    ]
+  }
+]
