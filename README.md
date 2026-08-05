@@ -20,21 +20,8 @@ Las empresas pagan herramientas costosas (SailPoint, Saviynt) para gobernar qui�
 
 ## 🏗️ Arquitectura
 
-```
-┌─────────────────┐      ┌──────────────────┐      ┌─────────────────────┐
-│   AWS IAM        │      │   Python/boto3    │      │   Azure SQL Database │
-│  (usuarios,      │─────▶│   Extracción +    │─────▶│   (tablas relacio-   │
-│   grupos,        │      │   Detección de    │      │    nales, JOINs,     │
-│   políticas)      │      │   anomalías       │      │    snapshots)        │
-└─────────────────┘      └──────────────────┘      └──────────┬──────────┘
-                                                                 │
-                          ┌──────────────────┐                  │
-                          │  Google Sheets +  │◀─────────────────┘
-                          │  Apps Script      │
-                          │  (certificación   │
-                          │   de accesos)     │
-                          └──────────────────┘
-```
+<img width="1694" height="929" alt="de0b84f9-cbac-4967-8698-bb21fa7539a5" src="https://github.com/user-attachments/assets/98a2d09d-01da-4558-bc42-2e4a2bcace0c" />
+
 
 **Flujo de datos:**
 1. Un script en Python se conecta a AWS IAM (usuario de servicio de solo lectura) y extrae usuarios, grupos y políticas efectivas.
